@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: keiba-tracker-backend
+    runtime: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    envVars:
+      - key: TURSO_DATABASE_URL
+        sync: false
+      - key: TURSO_AUTH_TOKEN
+        sync: false
+      - key: CORS_ALLOWED_ORIGINS
+        sync: false

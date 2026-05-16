@@ -1,0 +1,17 @@
+# Env
+.env
+**/.env
+
+# Java / Gradle
+backend/build/
+backend/.gradle/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Nix
+.direnv/
+flake.lock
+
+note.txt
