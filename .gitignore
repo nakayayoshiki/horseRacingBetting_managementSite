@@ -12,6 +12,5 @@ frontend/dist/
 
 # Nix
 .direnv/
-flake.lock
 
 note.txt
